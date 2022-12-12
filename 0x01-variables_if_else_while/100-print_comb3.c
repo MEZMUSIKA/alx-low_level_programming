@@ -8,24 +8,27 @@
 
 int main(void)
 {
-	int ktr, num;
+int ktr, num;
 
-	for (ktr = 0; ktr < 10; ktr++)
-	{
-		for (num = 0; num < 10; num++)
-		{
-			putchar((ktr % 10) + '0');
-			putchar((num % 10) + '0');
-		}
+for (ktr = 0; ktr < 10; ktr++)
+{
+for (num = 0; num < 10; num++)
+{
+if (!((ktr == num) || (ktr > num)))
+{
+putchar((ktr % 10) + '0');
+putchar((num % 10) + '0');
+}
+if (!(ktr == 8 && num == 9))
+{
+putchar(',');
+putchar(' ');
+}
 
-			if (ktr == 9 && num == 9)
-			{
-			putchar(',');
-			putchar(' ');
-			}
+}
 
-	}
+}
 
-	putchar('\n');
-	return (0);
+putchar('\n');
+return (0);
 }
