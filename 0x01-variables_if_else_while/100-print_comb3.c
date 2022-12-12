@@ -19,7 +19,7 @@ if (!((ktr == num) || (ktr > num)))
 putchar((ktr % 10) + '0');
 putchar((num % 10) + '0');
 }
-if (!(ktr == 8 && num == 9))
+if (!(num == 9 && ktr == 8))
 {
 putchar(',');
 putchar(' ');
