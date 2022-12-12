@@ -8,7 +8,8 @@
 
 int main(void)
 {
-int ktr, num;
+int ktr = 0;
+int num = 0;
 
 for (ktr = 0; ktr < 9; ktr++)
 {
@@ -21,8 +22,8 @@ putchar((num % 10) + '0');
 }
 if ((!(num == 9 && ktr == 8)))
 {
-putchar(',');
 putchar(' ');
+putchar(',');
 }
 
 }
