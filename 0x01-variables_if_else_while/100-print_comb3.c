@@ -17,13 +17,13 @@ for (num = 0; num <= 9; num++)
 {
 if (!((ktr == num) || (ktr > num)))
 {
-putchar((ktr % 10) + '0');
-putchar((num % 10) + '0');
+putchar(ktr);
+putchar(num);
 }
 if ((!(num == 9 && ktr == 8)))
 {
-putchar(' ');
 putchar(',');
+putchar(' ');
 }
 
 }
