@@ -10,15 +10,13 @@ int main(void)
 {
 	char hex;
 
-	while ((hex = '0') & (hex <= '9'))
+	for (hex = '0'; hex <= '9'; hex++)
 	{
 		putchar(hex);
-		hex++;
 	}
-	while ((hex = 'a') & (hex <= 'f'))
+	for (hex = 'a'; hex <= 'f'; hex++)
 	{
 		putchar(hex);
-		hex++;
 	}
 	putchar('\n');
 	return (0);
