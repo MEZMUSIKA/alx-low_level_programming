@@ -7,14 +7,18 @@
 
 void print_alphabet_x10(void)
 {
-char f;
-int k = '0';
+int kotari = 0;
+int fidel;
 
-while (k++ < 10)
+while (kotari <= 10)
++
+while (kotari++ <= 9)
 {
-for (f = 'a'; f <= 'z'; f++)
-_putchar(f);
-f++;
+for (fidel = 'a'; fidel <= 'z'; fidel++)
+{
+_putchar(fidel);
 }
 _putchar('\n');
+kotari++;
+}
 }
