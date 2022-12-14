@@ -3,7 +3,7 @@
 /**
  * print_sign - print the sign of a number
  *
- * @n: the code cheker
+ * @n: code to be verified
  *
  * Return: 1 and prints + if n is greater than zero
  * 0 and prints 0 if n is zero
@@ -15,14 +15,14 @@ if (n > 0)
 {
 _putchar('+');
 return (1);
-
+}
 else if (n == 0)
-
-_putchar(0);
+{
+_putchar('0');
 return (0);
-
+}
 else if (n < 0)
-
+{
 _putchar('-');
 return (-1);
 }
