@@ -11,7 +11,6 @@ int kotari = 0;
 int fidel;
 
 while (kotari <= 10)
-+
 while (kotari++ <= 9)
 {
 for (fidel = 'a'; fidel <= 'z'; fidel++)
