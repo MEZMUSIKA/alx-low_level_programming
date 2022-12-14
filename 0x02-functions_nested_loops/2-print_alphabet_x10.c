@@ -17,9 +17,8 @@ while (kotari++ <= 9)
 for (fidel = 'a'; fidel <= 'z'; fidel++)
 {
 _putchar(fidel);
-kotari++;
 }
 _putchar('\n');
-return (0);
+kotari++;
 }
 }
