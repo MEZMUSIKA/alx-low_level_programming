@@ -18,7 +18,7 @@ for (fidel = 'a'; fidel <= 'z'; fidel++)
 {
 _putchar(fidel);
 }
-_putchar(10);
+_putchar(kotari);
 kotari++;
 }
 }
