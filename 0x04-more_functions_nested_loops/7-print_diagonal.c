@@ -2,7 +2,7 @@
 
 /**
  * print_diagonal - drowing diagonal line
- *@n: input number of times to draw '\' 
+ *@n:input number of times to draw '\'
  */
 
 void print_diagonal(int n)
