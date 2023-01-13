@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _atoi - convert a string 
+ * _atoi - convert a string
  * @s: the string to be comverted.
  *
  *Return: The integer value of the comverted string.
@@ -20,8 +20,6 @@ else if (*s >= '0' && *s <= '9')
 num = (num * 10) + (*s - '0');
 else if (num > 0)
 break;
-}
-while (*s++);
-return (num * sign);
-
+} while (*s++);
+return (num *sign);
 }
